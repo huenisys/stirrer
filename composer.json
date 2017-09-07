@@ -1,0 +1,25 @@
+{
+    "name": "huenisys/stirrer",
+    "description": "composer-plugin for installing huenisys/stir",
+    "keywords": ["composer-plugin", "laravel", "huenits"],
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "huenisys",
+            "email": "paul@huenits.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stirrer\\": "src/"
+        }
+    },
+    "extra": {
+      "class": "Stirrer\\Plugin"
+    }
+}
